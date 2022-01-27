@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <link rel="icon" href="images\icon.ico" type="image/icon type">
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+<div class="row">
+     <div class="container">
+        <div class="col-md-6 col-lg-12">
+            <div class ="header">
+                <div class="logo">
+                    <a class = "logo-text " href="index.html">facebook</a>
+        
+                </div>
+                <div class="login col-md-6 me-5">
+                         <form action ="Sign-up">
+                         <table class ="login controls">
+                         <tr>
+                                <td><label class="login-label"> Email or Mobile</label></td>
+                                <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" > </td>
+                             <td><input type="text"> </td>
+                            <td><input class="submit-btn" type = "submit" value = "Log In "></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class = "forgotten" href="forgotten.html">Forgotten Account?</td></td>
+                        </tr>
+
+                        </table>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="main-body">
+        <div class="left-section">
+            <p class="para">Facebook helps you to connect and share with the <br> people in your life.</p>
+            <img class ="image" src="fb1.png" alt="">
+        </div>
+       
+        <div class="right-section">
+            <h1>Create an account</h1>
+            <h4>It's quick and easy.</h5>
+            <form action="submit.html" id="Signupform">
+            <div class="top-right">
+                <table>
+                    <tr>
+                        <td> <input  name="fname" class="text" text=" "placeholder="Name"></td>
+                        <td> <input name="lname" class="text" text=" "placeholder="Surname"></td>
+                    </tr>
+                   
+                </table>
+               
+            </div>
+            
+                <div class="bottom-right">
+                    <input class = "text-area" name="email" text=" " placeholder="Mobile number or email address">
+                <div class="bottom-right">
+                    <input class = "text-area" name="pwd" text=" " placeholder="New password">
+                </div>
+                <div class="bottom-right">
+                    <input class = "text-area" name="password" text=" " placeholder="Re-enter password">
+                </div>
+                <div class="bottom-right">
+                    <label class=label>Birthday</label><br>
+                    <div class="bottom-right">
+                        <table>
+                            <tr>
+                            <td>
+                                <select name ="day" id="">
+                                    <option value="">Day</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name ="month " id="">
+                                    <option value="">Month</option>
+                                    <option>Jan</option>
+                                    <option>Feb</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name ="year" id="">
+                                    <option value="">Year</option>
+                                    <option>1999</option>
+                                    <option>2000</option>
+                                </select>
+                            </td>
+                        </tr>
+                        </table>
+                   
+                </div>
+                <div class="bottom-right">
+                    <label class="label">Gender</label>
+                    <div class="bottom-right"></div>
+                    <input type="radio" name="Gender">
+                    <label for="male">Male</label>
+                    <input type="radio" name="Gender">
+                    <label for="female">Female</label>
+                    <input type="radio" name="Gender">
+                    <label for="other">Custom</label>
+
+                </div>
+                <div>
+                    <p>By clicking Sign up,you agree the terms , Data Policy and cookie policy. You may receive SMS notification from us and can sign out at any time</p>
+
+                </div>
+                <div>
+                    <button class="sign-up">Sign Up</button>
+                </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
